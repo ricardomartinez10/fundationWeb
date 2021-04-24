@@ -20,6 +20,12 @@ footer {
         }
     }
 
+    @media (min-width: 576px) {
+        .aling-right-content {
+            text-align: right;
+        }
+    }
+
     @media (max-width: 576px) {
         .center-content {
             text-align: center;

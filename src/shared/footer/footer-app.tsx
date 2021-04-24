@@ -16,7 +16,7 @@ class FooterApp extends React.Component{
                             <img className="logo-footer" src={logoFooter} alt="logo pie de pagina"/>
                             <p className="bold-primary mt-3">Institución NO hospitalaria para <br/>el consumo de SPA (Sustancias Psicoactivas).</p>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 aling-right-content">
                             <img className="mapa-img" src={mapa} alt="mapa fundacion"/>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ class FooterApp extends React.Component{
                         <div className="col-md-6">
                             Hosting Gratis para ONG
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 aling-right-content">
                             <div><FaPhoneAlt/> <span> 318 285 5078 / 317 382 2906</span></div>
                             <div><HiLocationMarker/> <span> Carrera 5B Barrio Santa Clara Yacuanquer-Nariño</span></div>
                             <div><GrMail/> <span> haciauna.nuevavida@hotmail.com</span></div>
