@@ -46,6 +46,14 @@
     }
 }
 
+.show-element {
+    display: block;
+}
+
+.hide-element {
+    display: none;
+} 
+
 @media (max-width: 768px) {
     .carousel-inner {
         .w-100 {
