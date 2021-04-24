@@ -1,0 +1,58 @@
+@import './variables.scss';
+
+.bold-primary {
+    color: $textColorPrimary;
+    font-weight: bolder;
+}
+
+.container-margin {
+    margin: 0 7%;
+} 
+
+.main-description {
+    background: $secundaryColorVariation;
+    color: $textColorPrimary;
+    border-radius: 7px;
+    padding: 20px 30px;
+    font-size: 21px;
+
+    p:last-child{
+        margin-bottom: 0;
+    }
+
+    &.blue-bg {
+        background: $backgroundTitle;
+    }
+}
+
+.main-img-container {
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 7px;
+    }
+
+    .somos .img-container:nth-child(1) {
+        padding-left: 0;
+    }
+
+    .somos .img-container:nth-child(2) {
+        padding-right: 0;
+    }
+
+    &.banner {
+        height: 258px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner {
+        .w-100 {
+            width: 100%;
+            height: 382px;
+            object-fit: cover;
+            border-radius: 7px;
+        }
+    }
+}

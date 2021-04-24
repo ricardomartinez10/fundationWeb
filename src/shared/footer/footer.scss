@@ -1,0 +1,28 @@
+@import '../../variables.scss';
+
+footer {
+    background: $primaryColor;
+    background: -moz-linear-gradient(left, $primaryColor 0%, $secundaryColor 100%);
+    background: -webkit-linear-gradient(left, $primaryColor 0%, $secundaryColor 100%);
+    background: linear-gradient(to right, $primaryColor 0%, $secundaryColor 100%);
+
+    .mapa-img {
+        width: 77%;
+    }
+
+    .footer-padding {
+        padding: 40px 0;
+    }
+
+    @media (max-width: 768px) {
+        .logo-footer {
+            width: 88%;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .center-content {
+            text-align: center;
+        }
+    }
+}

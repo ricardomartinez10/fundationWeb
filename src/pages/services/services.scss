@@ -1,0 +1,43 @@
+@import '../../variables.scss';
+
+.services {
+
+    .service-img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .service-title {
+        text-align: center;
+        background: $backgroundTitle;
+        color: $textColorPrimary;
+        padding: 10px 0;
+        margin-bottom: 0;
+    }
+
+    .container.items {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 6% 0;
+    }
+
+    .service-description {
+        text-align: justify;
+        padding: 20px;
+        line-height: 2;
+    }
+
+    .item-container {
+        color: $textColorSecundary;
+        flex: 0 0 30.333333%;
+        background: $backgroundBlue;
+        margin: 10px;
+    }
+
+    .services-row {
+        margin-bottom: 20px;
+    }
+
+}

@@ -1,0 +1,597 @@
+.Titulo {
+    color: #4b85b2;
+    font-weight: 600;
+    font-size: 7em;
+    margin: 0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-family: 'Baloo Thambi', cursive;
+}
+
+.Contenedor-titulo {
+    position: absolute;
+    z-index: 1;
+    left: 349px;
+    top: 36px;
+}
+
+.Contenedor-slide {
+    display: flex;
+    align-items: center;
+}
+
+.Cont-traignle {
+    position: absolute;
+}
+
+.Contenedor-principal {
+    width: 100%;
+    height: 700px;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes entradaTriangle {
+    0% {
+        left: 0px;
+        bottom: 0px;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        left: 0px;
+        bottom: 500px;
+        opacity: 0;
+        transform: scale(0.5);
+    }
+}
+
+/* Standard syntax */
+@keyframes entradaTriangle {
+    0% {
+        left: 0px;
+        bottom: 0px;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        left: 0px;
+        bottom: 500px;
+        opacity: 0;
+        transform: scale(0.5);
+    }
+}
+
+.Entrada-Triangle {
+    -webkit-animation-name: entradaTriangle;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-duration: 1s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: entradaTriangle;
+    animation-duration: 1s;
+}
+
+.img-tringle {
+    width: 371px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes salidaImagen {
+    0% {
+        left: 0px;
+        bottom: 0px;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        left: 0px;
+        bottom: 500px;
+        opacity: 0;
+        transform: scale(0.5);
+    }
+}
+
+/* Standard syntax */
+@keyframes salidaImagen {
+    0% {
+        left: 0px;
+        bottom: 0px;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        left: 0px;
+        bottom: 500px;
+        opacity: 0;
+        transform: scale(0.5);
+    }
+}
+
+.Salida-imagen {
+    position: relative;
+    -webkit-animation-name: salidaImagen;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-duration: 1s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: salidaImagen;
+    animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes salida {
+    0% {
+        left: 0px;
+        top: 100px;
+        opacity: 0
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        opacity: 1
+    }
+}
+
+/* Standard syntax */
+@keyframes salida {
+    0% {
+        left: 0px;
+        top: 0px;
+        opacity: 1
+    }
+
+    100% {
+        left: 0px;
+        top: 100px;
+        opacity: 0
+    }
+}
+
+.Salida-titulos {
+    position: relative;
+    -webkit-animation-name: salida;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-duration: 1s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: salida;
+    animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0% {
+        left: 0px;
+        top: 100px;
+        opacity: 0
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        opacity: 1
+    }
+}
+
+/* Standard syntax */
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 100px;
+        opacity: 0
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        opacity: 1
+    }
+}
+
+.Entrada-titulos {
+    position: relative;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-duration: 1s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes animaImage {
+    0% {
+        left: 0px;
+        top: 100px;
+        opacity: 0
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        opacity: 1
+    }
+}
+
+/* Standard syntax */
+@keyframes animaImage {
+    0% {
+        left: 0px;
+        top: 700px;
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50% {
+        left: 0px;
+        top: 0px;
+        opacity: 0.5;
+        transform: scale(0.5);
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.Entrada-imagen {
+    position: relative;
+    -webkit-animation-name: animaImage;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-duration: 2s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: animaImage;
+    animation-duration: 2s;
+
+}
+
+.Picture {
+    float: left;
+    margin-right: 32px;
+    width: 445px;
+    margin-left: 119px;
+}
+
+.Subtitulo {
+    color: #6bad7a;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0px;
+    display: inline-block;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes salidaLine {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+
+/* Standard syntax */
+@keyframes salidaLine {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+
+.Salida-line {
+    -webkit-animation-name: salidaLine;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-duration: 1s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: salidaLine;
+    animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes entradaLine {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Standard syntax */
+@keyframes entradaLine {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.Entrada-line {
+    -webkit-animation-name: entradaLine;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-duration: 1s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: entradaLine;
+    animation-duration: 1s;
+}
+
+.line-slider {
+    height: 3px;
+    background: #59C086;
+    width: 102%;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes salidaDescrip {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Standard syntax */
+@keyframes salidaDescrip {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.Salida-description {
+    position: relative;
+    -webkit-animation-name: salidaDescrip;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-duration: 1s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: salidaDescrip;
+    animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes animaDescrip {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Standard syntax */
+@keyframes animaDescrip {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.Entrada-description {
+    position: relative;
+    -webkit-animation-name: animaDescrip;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-duration: 1s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: animaDescrip;
+    animation-duration: 1s;
+}
+
+
+.Descripcion {
+    margin-top: 7px;
+    width: 525px;
+    float: left;
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(102, 102, 102);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Contenedor-botones {
+    position: absolute;
+    clear: both;
+    z-index: 2;
+    top: 236px;
+    text-align: center;
+}
+
+.Boton-historia {
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+    padding: 10px 27px;
+    transition: width 1s;
+}
+
+.arrow-img {
+    width: 60px;
+    transition: width 0.5s;
+}
+
+.Boton-historia:hover .arrow-img {
+    width: 50px;
+}
+
+.arrow-title {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+@media (max-width:1145px) {
+
+    .Descripcion {
+        font-size: 16px;
+        width: 437px;
+    }
+
+    .Picture {
+        width: 389px;
+    }
+
+    .Titulo {
+
+        font-size: 6em;
+    }
+
+    .Contenedor-titulo {
+        left: 296px;
+        top: 84px;
+    }
+
+}
+
+@media (max-width:970px) {
+    .Descripcion {
+        width: 359px;
+    }
+
+    .Contenedor-titulo {
+        left: 255px;
+        top: 114px;
+    }
+
+    .Picture {
+        width: 321px;
+    }
+}
+
+@media (max-width:670px) {
+
+    #app {
+        height: auto;
+    }
+
+    .Contenedor-principal {
+        position: initial;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Picture {
+        float: none;
+        margin: 0;
+    }
+
+    .Contenedor-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Cont-Slide-Historia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Contenedor-titulo {
+        position: relative;
+        top: 81px;
+        left: 0;
+        z-index: 1;
+    }
+
+    .Description-container {
+        width: 91%;
+        margin-top: 15px;
+    }
+
+    .Subtitulo {
+        margin-bottom: 5px;
+    }
+
+    .Descripcion {
+        width: 100%;
+        margin-top: 9px;
+    }
+
+    .Contenedor-botones {
+        position: initial;
+        clear: both;
+        z-index: 2;
+        background: #4d88ae;
+        border-radius: 16px;
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 26px;
+        bottom: 3px;
+        margin-bottom: 59px;
+    }
+
+    .arrow-title {
+        display: none;
+    }
+
+    .img-tringle {
+        width: 0;
+    }
+
+    .arrow-img {
+        width: 60px;
+        transition: width 0.5s;
+        transform: rotate(270deg);
+    }
+
+}

@@ -1,0 +1,18 @@
+@import '../../variables.scss';
+
+.title-container{
+    background-image: url(../../img/mision/mision1.jpg);
+    height: 296px;
+    background-size: cover;
+    background-position: center;
+    background-position-y: bottom;
+
+    h2 {
+        color: $textColorPrimary;
+        background: $backgroundTitle;
+        display: inline-block;
+        border-radius: 5px;
+        padding: 15px;
+        margin-top: 10%;
+    }
+}
